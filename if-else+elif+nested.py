@@ -16,7 +16,7 @@
 # else:
 #     print("alexa, do not add apples to the cart..")    
 
-# #harry ka example
+# #example
 # num1 = int(input('enter the number: '))
 # if(num1<0):
 #     print("the number is negative..")
@@ -43,7 +43,7 @@
 #     print("number is zero..")
 # print("i am happy now..")
 
-#claude wali examples
+#claude examples
 #AND operator ma dono conditions true honi chahiye
 age = 15
 has_ticket = True
