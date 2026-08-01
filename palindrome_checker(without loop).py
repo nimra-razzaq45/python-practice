@@ -1,0 +1,18 @@
+#question2 palindrome checker(without loop)
+word = input("write any small word: ")
+print("the word given by user:",word)
+reverse_word = word[::-1]
+print("reverse word:",reverse_word)
+word=word.lower()
+reverse_word=reverse_word.lower()
+is_palindrome = word == reverse_word
+print("is palindrome:",is_palindrome)
+vowels_a = (word.count("a"))
+vowels_e = (word.count("e"))
+vowels_i = (word.count("i"))
+vowels_o = (word.count("o"))
+vowels_u = (word.count("u"))
+print("a","e","i","o","u")
+print(vowels_a,vowels_e,vowels_i,vowels_o,vowels_u)
+total_vowels = int(vowels_a+vowels_e+vowels_i+vowels_o+vowels_u) 
+print("total vowels=",total_vowels) 
